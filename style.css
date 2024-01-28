@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    width: 35vw;
+    background-color: dimgray;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.devimg {
+    display: flex;
+    width: 15vw;
+    height: 29vh;
+    border: 2px solid royalblue;
+    margin-bottom: 8px;
+}
+
+.name {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5vw;
+}
+
+.fullstack {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+
+a {
+    display: flex;
+    text-decoration: none !important;
+}
+
+.btm {
+    display: flex;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 13vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid royalblue;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.btm:hover {
+    background-color: royalblue;
+}
+
+
+.home {
+    display: flex;
+    width: 65vw;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    color: royalblue;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14vw;
+    width: 10vw;
+    height: 2vw;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    margin-top: 2vw;
+}
+
+.btn1:hover {
+    background-color: darkblue;
+}
+
+.name1 {
+    margin-bottom: 2vw;
+    font-size: 2vw;
+}
+
+.para {
+    font-weight: 800;
+}
+
+.aboutdiv {
+    display: flex;
+    width: 65vw;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+
+.heading3 {
+    margin-top: 2vw;
+}
+
+.car {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 2vw;
+    height: 2vw;
+}
+
+.educa {
+    display: flex;
+    width: 65vw;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    width: 65vw;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
